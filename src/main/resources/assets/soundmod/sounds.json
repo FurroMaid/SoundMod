@@ -1,0 +1,8 @@
+{
+  "siren_1": {
+    "sounds": ["soundmod:siren_1"]
+  },
+  "siren_2": {
+    "sounds": ["soundmod:siren_2"]
+  }
+}

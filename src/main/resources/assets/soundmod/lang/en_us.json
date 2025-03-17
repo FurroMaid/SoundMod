@@ -1,0 +1,7 @@
+{
+  "block.soundmod.siren": "Moon Siren",
+  "gui.soundmod.title": "Select Sound",
+  "gui.soundmod.select_sound": "Available Sounds",
+  "sound_entry": "Sound: %s",
+  "sound_entry.hint": "Click to select"
+}

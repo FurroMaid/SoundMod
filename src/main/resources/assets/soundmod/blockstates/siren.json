@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "soundmod:block/siren_off" },
+    "powered=true": { "model": "soundmod:block/siren_on" }
+  }
+}
