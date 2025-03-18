@@ -9,12 +9,14 @@ import net.minecraft.util.math.random.Random;
 import net.minecraft.world.tick.Tick;
 
 public class Siren1LoopSoundInstance extends AbstractSoundInstance {
-    public Siren1LoopSoundInstance(SoundEvent soundEvent, BlockPos pos) {
+    public Siren1LoopSoundInstance(SoundEvent soundEvent, BlockPos pos, float volume, float pitch, boolean loopable) {
         super(soundEvent, SoundCategory.BLOCKS, SoundInstance.createRandom());
         this.x = pos.getX() + 0.5;
         this.y = pos.getY() + 0.5;
         this.z = pos.getZ() + 0.5;
-        this.repeat = false;
+        this.volume = volume;
+        this.pitch = pitch;
+        this.repeat = loopable;
         this.repeatDelay = 0;
     }
 

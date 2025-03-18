@@ -32,7 +32,6 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 public class SirenPlayer extends BlockWithEntity {
-
     public static final BooleanProperty POWERED = BooleanProperty.of("powered");
 
     @Override
